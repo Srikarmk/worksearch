@@ -1,0 +1,880 @@
+{
+ "retriever": "bm25",
+ "split": "valid",
+ "n": 34,
+ "recall": {
+  "mean": 0.601,
+  "ci": [
+   0.485,
+   0.716
+  ]
+ },
+ "hit": {
+  "mean": 0.882,
+  "ci": [
+   0.765,
+   0.971
+  ]
+ },
+ "mrr": {
+  "mean": 0.568,
+  "ci": [
+   0.438,
+   0.688
+  ]
+ },
+ "items": [
+  {
+   "id": "Aurora-GP:471181d0bf",
+   "repo": "Aurora-GP",
+   "query": "Rename repository to region-aware-gp; add personal contact email",
+   "gold": [
+    "Aurora-GP/HANDOFF.md",
+    "Aurora-GP/README.md",
+    "Aurora-GP/paper/main.tex"
+   ],
+   "top": [
+    "Aurora-GP/HANDOFF.md",
+    "council-votes/tests/fixtures/rollcall-page-0-2026-03-09.html",
+    "council-votes/tests/fixtures/rollcall-page-0-2026-11-05.html",
+    "datasniff/tests/fixtures/get-huggingface-co-api-datasets-bigcode-the-stack-8c4403fa.json",
+    "Aurora-GP/src/tune_aurora.py",
+    "tool-call-reliability/src/toolrel/tasks.py",
+    "whygit/src/whygit/rules.py",
+    "tool-call-reliability/README.md",
+    "Aurora-GP/src/comp_plots.py",
+    "Aurora-GP/AUDIT.md"
+   ],
+   "recall": 0.3333333333333333,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:b30abba5cf",
+   "repo": "Aurora-GP",
+   "query": "Report the audited method's corrected gain as a range across runs",
+   "gold": [
+    "Aurora-GP/paper/main.tex"
+   ],
+   "top": [
+    "Aurora-GP/paper/main.tex",
+    "Keystone/services/core/keystone/eval/external.py",
+    "Aurora-GP/AUDIT.md",
+    "Keystone/RELEASE.md",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/RESULTS_FAIR.md",
+    "Aurora-GP/README.md",
+    "Keystone/services/core/keystone/ingest/anchors.py",
+    "prompt-brittleness/src/brittle/report.py",
+    "fantasy-racer/src/game3d/sound.ts"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:6ea870aeda",
+   "repo": "Aurora-GP",
+   "query": "Disclose run-to-run variation in the GPyTorch hazard measurements",
+   "gold": [
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/paper/main.tex"
+   ],
+   "top": [
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/inference_corruption.py",
+    "Aurora-GP/src/gp_test.py",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/src/gp_baseline.py",
+    "Aurora-GP/src/routing_recheck.py",
+    "Aurora-GP/README.md",
+    "Aurora-GP/src/hetero_independent.py",
+    "Aurora-GP/AUDIT.md",
+    "Aurora-GP/reproduce.sh"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:dbe6532735",
+   "repo": "Aurora-GP",
+   "query": "State the GPyTorch and linear_operator versions behind the hazard measurements",
+   "gold": [
+    "Aurora-GP/paper/main.tex"
+   ],
+   "top": [
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/gp_baseline.py",
+    "Aurora-GP/src/inference_corruption.py",
+    "Aurora-GP/src/hetero_independent.py",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/README.md",
+    "Aurora-GP/src/gp_test.py",
+    "Aurora-GP/requirements.txt",
+    "Aurora-GP/src/routing_recheck.py",
+    "Aurora-GP/HANDOFF.md"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:7658212566",
+   "repo": "Aurora-GP",
+   "query": "Pre-submission audit: align paper prose with stored results",
+   "gold": [
+    "Aurora-GP/HANDOFF.md",
+    "Aurora-GP/paper/arxiv_abstract.txt",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/reproduce.sh"
+   ],
+   "top": [
+    "Keystone/services/core/keystone/ingest/arxiv_source.py",
+    "Aurora-GP/HANDOFF.md",
+    "Keystone/RELEASE.md",
+    "Keystone/services/core/keystone/ingest/latex.py",
+    "Aurora-GP/README.md",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/paper/main.tex",
+    "Keystone/services/core/tests/test_latex.py",
+    "Aurora-GP/paper/README.md",
+    "Aurora-GP/reproduce.sh"
+   ],
+   "recall": 0.75,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Aurora-GP:7ceb1d7e6f",
+   "repo": "Aurora-GP",
+   "query": "Add HANDOFF.md and ignore macOS cruft",
+   "gold": [
+    "Aurora-GP/HANDOFF.md"
+   ],
+   "top": [
+    "MLOps-Lab3/README.md",
+    "datasniff/README.md",
+    "whygit/README.md",
+    "whygit/src/whygit/errors.py",
+    "MLOps-Lab2/README.md",
+    "whygit/src/whygit/rules.py",
+    "bostonmove/README.md",
+    "fantasy-racer/tools/sound-lab/README.md",
+    "hearth/tools/adb-closed.py",
+    "hearth/tools/tv.py"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "Aurora-GP:547c3b41ef",
+   "repo": "Aurora-GP",
+   "query": "Prepare arXiv submission: trimmed metadata abstract, cleaned preamble",
+   "gold": [
+    "Aurora-GP/paper/arxiv_abstract.txt",
+    "Aurora-GP/paper/main.tex"
+   ],
+   "top": [
+    "Keystone/services/core/keystone/ingest/metadata.py",
+    "Keystone/services/core/keystone/cli.py",
+    "Keystone/apps/web/test/feeds.test.ts",
+    "Keystone/services/core/keystone/ingest/arxiv_source.py",
+    "prompt-brittleness/README.md",
+    "Keystone/services/core/keystone/ingest/bibliography.py",
+    "Keystone/services/core/tests/test_metadata_abs.py",
+    "Keystone/RELEASE.md",
+    "Keystone/CLAUDE.md",
+    "Keystone/apps/web/lib/dossier.ts"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "Aurora-GP:ff0f2c5038",
+   "repo": "Aurora-GP",
+   "query": "Add figures, remove em-dashes, tighten prose and spacing",
+   "gold": [
+    "Aurora-GP/paper/README.md",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/make_figures.py"
+   ],
+   "top": [
+    "fantasy-racer/app/components/FirstRunHint.tsx",
+    "fantasy-racer/src/ui/shareCard.ts",
+    "Keystone/RELEASE.md",
+    "fantasy-racer/app/globals.css",
+    "Keystone/apps/web/app/globals.css",
+    "Keystone/services/core/keystone/ingest/latex.py",
+    "fantasy-racer/app/components/TouchControls.tsx",
+    "fantasy-racer/src/game3d/branch.ts",
+    "Keystone/apps/web/components/Reader.tsx",
+    "fantasy-racer/src/game3d/props/hogwarts.ts"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "Aurora-GP:ff136cf5e0",
+   "repo": "Aurora-GP",
+   "query": "Independent GPyTorch het-GP confirms the result is not an implementation artifact",
+   "gold": [
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/results/hetero_independent.json"
+   ],
+   "top": [
+    "Aurora-GP/src/hetero_independent.py",
+    "Aurora-GP/README.md",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/inference_corruption.py",
+    "Aurora-GP/HANDOFF.md",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/src/gp_baseline.py",
+    "Aurora-GP/src/routing_recheck.py",
+    "Aurora-GP/src/gp_test.py",
+    "Aurora-GP/reproduce.sh"
+   ],
+   "recall": 0.5,
+   "hit": 1.0,
+   "mrr": 0.3333333333333333
+  },
+  {
+   "id": "Aurora-GP:12cd6da43d",
+   "repo": "Aurora-GP",
+   "query": "Reframe around the criterion that holds; add second author; close all TODOs",
+   "gold": [
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/results/hetero_independent.json",
+    "Aurora-GP/src/hetero_independent.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/seance/hauntings.py",
+    "fantasy-racer/src/game3d/props/coast.ts",
+    "Keystone/apps/web/public/dossiers/1904.01038.context.json",
+    "Keystone/CLAUDE.md",
+    "Gitgotchi/CHANGELOG.md",
+    "Keystone/services/core/tests/test_expand.py",
+    "Aurora-GP/paper/main.tex",
+    "Keystone/RELEASE.md",
+    "Aurora-GP/RESULTS_FAIR.md",
+    "Gitgotchi/src/gitgotchi/db/state_manager.py"
+   ],
+   "recall": 0.3333333333333333,
+   "hit": 1.0,
+   "mrr": 0.14285714285714285
+  },
+  {
+   "id": "Aurora-GP:7d76829fb6",
+   "repo": "Aurora-GP",
+   "query": "Add the research process as a section: what failed and what caught it",
+   "gold": [
+    "Aurora-GP/paper/main.tex"
+   ],
+   "top": [
+    "Aurora-GP/paper/main.tex",
+    "Keystone/services/core/tests/test_planted.py",
+    "Keystone/apps/web/app/layout.tsx",
+    "Keystone/apps/web/lib/card.ts",
+    "Aurora-GP/README.md",
+    "tool-call-reliability/README.md",
+    "Keystone/apps/web/auth.ts",
+    "Keystone/apps/web/app/api/mcp/route.ts",
+    "Keystone/apps/web/lib/analytics.ts",
+    "evalpair/README.md"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:60a10f2b01",
+   "repo": "Aurora-GP",
+   "query": "Routing survives the sample-size attack; shrinkage repairs regional noise partly",
+   "gold": [
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/results/routing_largen.json",
+    "Aurora-GP/src/routing_largen.py",
+    "Aurora-GP/src/shrinkage_noise.py"
+   ],
+   "top": [
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/src/routing_largen.py",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/shrinkage_noise.py",
+    "Aurora-GP/src/adversarial.py",
+    "Aurora-GP/src/noise_routing.py",
+    "Aurora-GP/src/adversarial_n.py",
+    "Aurora-GP/README.md",
+    "Aurora-GP/results/structured/noise_routing.json"
+   ],
+   "recall": 0.8,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:8a7dd3dac8",
+   "repo": "Aurora-GP",
+   "query": "Adversarial audit: two of five attacks succeed; the regional-noise claim is withdrawn",
+   "gold": [
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/adversarial.py",
+    "Aurora-GP/src/adversarial_n.py"
+   ],
+   "top": [
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/adversarial.py",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/README.md",
+    "Aurora-GP/HANDOFF.md",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/paper/arxiv_abstract.txt",
+    "rag-poisoning/README.md",
+    "Aurora-GP/src/hetero_fair.py",
+    "Aurora-GP/src/hetero_baseline.py"
+   ],
+   "recall": 0.6666666666666666,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:4ca7579f92",
+   "repo": "Aurora-GP",
+   "query": "Regenerate Table 2 from a script; the orthogonality mechanism turns out predictive",
+   "gold": [
+    "Aurora-GP/paper/main.tex"
+   ],
+   "top": [
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/src/orthogonality.py",
+    "Aurora-GP/src/routing_largen.py",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/README.md",
+    "fantasy-racer/src/game3d/cars.ts",
+    "tool-call-reliability/tests/test_check.py",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/HANDOFF.md",
+    "groupthink/src/gthink/report.py"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.25
+  },
+  {
+   "id": "Aurora-GP:2a86251638",
+   "repo": "Aurora-GP",
+   "query": "Self-audit: seed-robustness diff test, and three reproducibility defects of my own",
+   "gold": [
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/src/diff_seeds.py",
+    "Aurora-GP/src/orthogonality.py"
+   ],
+   "top": [
+    "Silent-RAG-Failures/tests/test_audit_fixes.py",
+    "Aurora-GP/HANDOFF.md",
+    "Aurora-GP/paper/main.tex",
+    "Keystone/services/core/keystone/cli.py",
+    "llm-judge-bias/tests/test_analysis.py",
+    "evalpair/README.md",
+    "Aurora-GP/src/gp_baseline.py",
+    "Aurora-GP/src/aurora_final.py",
+    "Keystone/RELEASE.md",
+    "Keystone/README.md"
+   ],
+   "recall": 0.25,
+   "hit": 1.0,
+   "mrr": 0.3333333333333333
+  },
+  {
+   "id": "Aurora-GP:351105d5a8",
+   "repo": "Aurora-GP",
+   "query": "Complete the comparison: 11 datasets, global noise wins 9 on ECE",
+   "gold": [
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/paper/main.tex"
+   ],
+   "top": [
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/paper_tables.py",
+    "Aurora-GP/src/noise_routing.py",
+    "Aurora-GP/src/noise_controls.py",
+    "Aurora-GP/src/significance.py",
+    "Aurora-GP/src/adversarial.py",
+    "Aurora-GP/src/comp_plots.py",
+    "Aurora-GP/src/res_comp.py",
+    "Aurora-GP/README.md"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:2cce39bbd8",
+   "repo": "Aurora-GP",
+   "query": "FINAL: the noise-model repair fails too; paper is a negative result throughout",
+   "gold": [
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/paper/main.tex"
+   ],
+   "top": [
+    "Aurora-GP/src/structured_routing.py",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/AUDIT.md",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/src/adversarial.py",
+    "Aurora-GP/README.md",
+    "hearth/tools/tv.py",
+    "groupthink/HYPOTHESES.md",
+    "Aurora-GP/src/adversarial_n.py",
+    "Aurora-GP/paper/arxiv_abstract.txt"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Aurora-GP:ebf2d7d722",
+   "repo": "Aurora-GP",
+   "query": "Real heteroscedastic datasets, fair noise estimation, and a paper draft",
+   "gold": [
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/results/hetero_screen.json",
+    "Aurora-GP/src/hetero_fair.py",
+    "Aurora-GP/src/measure_hetero.py"
+   ],
+   "top": [
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/README.md",
+    "Aurora-GP/HANDOFF.md",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/src/noise_controls.py",
+    "Aurora-GP/src/datacollect.py",
+    "Aurora-GP/RESULTS_FAIR.md",
+    "Aurora-GP/src/paper_tables.py",
+    "Aurora-GP/src/hetero_fair.py"
+   ],
+   "recall": 0.5,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Aurora-GP:bd7e6cc541",
+   "repo": "Aurora-GP",
+   "query": "Noise-targeted region identification works; het-GP comparison is not yet fair",
+   "gold": [
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/results/structured/hetero_baseline.json",
+    "Aurora-GP/src/hetero_baseline.py"
+   ],
+   "top": [
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/src/hetero_baseline.py",
+    "Aurora-GP/src/hetero_fair.py",
+    "Aurora-GP/README.md",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/significance.py",
+    "Aurora-GP/HANDOFF.md",
+    "Aurora-GP/RESULTS_FAIR.md",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/src/adversarial.py"
+   ],
+   "recall": 0.6666666666666666,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:872fc1eab8",
+   "repo": "Aurora-GP",
+   "query": "Final results under exact inference; narrow the calibration claim",
+   "gold": [
+    "Aurora-GP/README.md",
+    "Aurora-GP/RESULTS_FAIR.md"
+   ],
+   "top": [
+    "Aurora-GP/AUDIT.md",
+    "Aurora-GP/RESULTS_FAIR.md",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/inference_corruption.py",
+    "Aurora-GP/src/aurora_final.py",
+    "Aurora-GP/README.md",
+    "Aurora-GP/src/orthogonality.py",
+    "Aurora-GP/src/comp_plots.py",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/src/fair_benchmark_exact.py"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Aurora-GP:1b32054453",
+   "repo": "Aurora-GP",
+   "query": "The exact-GP baseline is not exact above n=800; routing conclusion survives",
+   "gold": [
+    "Aurora-GP/AUDIT.md",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/results/mechanism/convergence.json",
+    "Aurora-GP/src/fair_benchmark.py",
+    "Aurora-GP/src/fair_benchmark_exact.py",
+    "Aurora-GP/src/routing_recheck.py"
+   ],
+   "top": [
+    "Aurora-GP/src/routing_recheck.py",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/AUDIT.md",
+    "Aurora-GP/HANDOFF.md",
+    "Aurora-GP/src/inference_corruption.py",
+    "Aurora-GP/src/routing_largen.py",
+    "Aurora-GP/src/convergence_check.py",
+    "Aurora-GP/RESULTS_FAIR.md",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/src/fair_benchmark_exact.py"
+   ],
+   "recall": 0.6666666666666666,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Aurora-GP:3125245114",
+   "repo": "Aurora-GP",
+   "query": "Mechanism study: no headroom for routing; retract the calibration claim",
+   "gold": [
+    "Aurora-GP/RESULTS_FAIR.md",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/results/mechanism/report.txt",
+    "Aurora-GP/src/convergence_check.py"
+   ],
+   "top": [
+    "Aurora-GP/src/mechanism.py",
+    "Aurora-GP/src/routing_recheck.py",
+    "Aurora-GP/reproduce.sh",
+    "Aurora-GP/src/mechanism_report.py",
+    "Aurora-GP/FINDINGS.md",
+    "Aurora-GP/src/routing_largen.py",
+    "Aurora-GP/paper/main.tex",
+    "Aurora-GP/src/orthogonality.py",
+    "Aurora-GP/results/mechanism/report.txt",
+    "Aurora-GP/RESULTS_FAIR.md"
+   ],
+   "recall": 0.75,
+   "hit": 1.0,
+   "mrr": 0.3333333333333333
+  },
+  {
+   "id": "format-tax:df25052c61",
+   "repo": "format-tax",
+   "query": "README: link the case study",
+   "gold": [
+    "format-tax/README.md"
+   ],
+   "top": [
+    "Srikarmk-profile/README.md",
+    "memory-rot/README.md",
+    "llm-judge-bias/README.md",
+    "format-tax/README.md",
+    "prompt-brittleness/README.md",
+    "rag-poisoning/README.md",
+    "Keystone/README.md",
+    "experiment-forensics/README.md",
+    "fantasy-racer/README.md",
+    "groupthink/README.md"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.25
+  },
+  {
+   "id": "format-tax:8ec0d43478",
+   "repo": "format-tax",
+   "query": "Full run: results, scored predictions, README",
+   "gold": [
+    "format-tax/HYPOTHESES.md",
+    "format-tax/README.md",
+    "format-tax/reports/results.md",
+    "format-tax/results/models.json",
+    "format-tax/src/ftax/report.py"
+   ],
+   "top": [
+    "prompt-brittleness/HYPOTHESES.md",
+    "quant-cliff/README.md",
+    "tool-call-reliability/README.md",
+    "format-tax/README.md",
+    "groupthink/README.md",
+    "long-context-recall/README.md",
+    "prompt-brittleness/src/brittle/report.py",
+    "llm-judge-bias/README.md",
+    "prompt-brittleness/README.md",
+    "tool-call-reliability/src/toolrel/report.py"
+   ],
+   "recall": 0.2,
+   "hit": 1.0,
+   "mrr": 0.25
+  },
+  {
+   "id": "format-tax:e24ae42b8b",
+   "repo": "format-tax",
+   "query": "Predictions and analysis plan, written before the full run; pilot answers and cache",
+   "gold": [
+    "format-tax/HYPOTHESES.md",
+    "format-tax/reports/results_pilot.md",
+    "format-tax/results/models.json",
+    "format-tax/src/ftax/analysis.py",
+    "format-tax/src/ftax/parse.py",
+    "format-tax/src/ftax/report.py",
+    "format-tax/tests/test_parse.py"
+   ],
+   "top": [
+    "memory-rot/HYPOTHESES.md",
+    "tool-call-reliability/HYPOTHESES.md",
+    "prompt-brittleness/HYPOTHESES.md",
+    "long-context-recall/README.md",
+    "format-tax/HYPOTHESES.md",
+    "quant-cliff/HYPOTHESES.md",
+    "groupthink/HYPOTHESES.md",
+    "llm-judge-bias/HYPOTHESES.md",
+    "llm-judge-bias/README.md",
+    "long-context-recall/HYPOTHESES.md"
+   ],
+   "recall": 0.14285714285714285,
+   "hit": 1.0,
+   "mrr": 0.2
+  },
+  {
+   "id": "format-tax:fc46ec410e",
+   "repo": "format-tax",
+   "query": "Analysis and report: contrasts, validity, self-contradiction, drift tables and figures",
+   "gold": [
+    "format-tax/src/ftax/analysis.py",
+    "format-tax/src/ftax/cli.py",
+    "format-tax/src/ftax/report.py"
+   ],
+   "top": [
+    "format-tax/HYPOTHESES.md",
+    "format-tax/README.md",
+    "format-tax/src/ftax/analysis.py",
+    "format-tax/src/ftax/report.py",
+    "llm-judge-bias/src/judgebias/report.py",
+    "quant-cliff/src/qcliff/score.py",
+    "experiment-forensics/forensics/report.py",
+    "quant-cliff/src/qcliff/analysis.py",
+    "quant-cliff/src/qcliff/report.py",
+    "llm-judge-bias/README.md"
+   ],
+   "recall": 0.6666666666666666,
+   "hit": 1.0,
+   "mrr": 0.3333333333333333
+  },
+  {
+   "id": "groupthink:f1e60c4f39",
+   "repo": "groupthink",
+   "query": "Fix a misparsed answer (space as thousands separator) on one item; re-pick its planted answer and re-score; correction addendum",
+   "gold": [
+    "groupthink/HYPOTHESES.md",
+    "groupthink/README.md",
+    "groupthink/reports/results.md",
+    "groupthink/reports/scorecard.md",
+    "groupthink/src/gthink/parse.py",
+    "groupthink/tests/test_core.py"
+   ],
+   "top": [
+    "groupthink/HYPOTHESES.md",
+    "groupthink/README.md",
+    "quant-cliff/README.md",
+    "quant-cliff/HYPOTHESES.md",
+    "evalpair/tests/test_checkers.py",
+    "groupthink/tests/test_core.py",
+    "evalpair/src/evalpair/checkers.py",
+    "groupthink/src/gthink/parse.py",
+    "quant-cliff/src/qcliff/parse.py",
+    "fantasy-racer/docs/PROGRESS.md"
+   ],
+   "recall": 0.6666666666666666,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "groupthink:4e894696a4",
+   "repo": "groupthink",
+   "query": "README: link the case study and write-up",
+   "gold": [
+    "groupthink/README.md"
+   ],
+   "top": [
+    "groupthink/README.md",
+    "Srikarmk-profile/README.md",
+    "format-tax/README.md",
+    "prompt-brittleness/README.md",
+    "llm-judge-bias/README.md",
+    "memory-rot/README.md",
+    "rag-poisoning/README.md",
+    "experiment-forensics/README.md",
+    "fantasy-racer/README.md",
+    "Keystone/README.md"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "groupthink:bbd849c89f",
+   "repo": "groupthink",
+   "query": "Full run: results, scored predictions, findings",
+   "gold": [
+    "groupthink/HYPOTHESES.md",
+    "groupthink/README.md",
+    "groupthink/reports/results.md",
+    "groupthink/reports/scorecard.md",
+    "groupthink/src/gthink/report.py"
+   ],
+   "top": [
+    "prompt-brittleness/HYPOTHESES.md",
+    "quant-cliff/README.md",
+    "tool-call-reliability/README.md",
+    "format-tax/README.md",
+    "groupthink/README.md",
+    "long-context-recall/README.md",
+    "prompt-brittleness/src/brittle/report.py",
+    "tool-call-reliability/src/toolrel/report.py",
+    "llm-judge-bias/src/judgebias/report.py",
+    "long-context-recall/src/lcrecall/report.py"
+   ],
+   "recall": 0.2,
+   "hit": 1.0,
+   "mrr": 0.2
+  },
+  {
+   "id": "groupthink:e8fbfbe8d6",
+   "repo": "groupthink",
+   "query": "README: question, design, reproduce, data and layout",
+   "gold": [
+    "groupthink/README.md"
+   ],
+   "top": [
+    "rag-poisoning/README.md",
+    "Aurora-GP/README.md",
+    "experiment-forensics/README.md",
+    "long-context-recall/README.md",
+    "Keystone/apps/web/app/contested/layout.tsx",
+    "Srikarmk-profile/README.md",
+    "council-votes/README.md",
+    "memory-rot/README.md",
+    "MLOps-Lab3/README.md",
+    "Aurora-GP/HANDOFF.md"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "groupthink:3411e482cc",
+   "repo": "groupthink",
+   "query": "Prediction scorer, written against the pilot before any main result",
+   "gold": [
+    "groupthink/reports/scorecard_pilot.md",
+    "groupthink/src/gthink/cli.py",
+    "groupthink/src/gthink/score.py"
+   ],
+   "top": [
+    "tool-call-reliability/HYPOTHESES.md",
+    "groupthink/src/gthink/score.py",
+    "quant-cliff/src/qcliff/score.py",
+    "groupthink/HYPOTHESES.md",
+    "quant-cliff/HYPOTHESES.md",
+    "Aurora-GP/paper/main.tex",
+    "format-tax/HYPOTHESES.md",
+    "Keystone/services/core/keystone/audit/trace.py",
+    "tool-call-reliability/RUN.md",
+    "format-tax/README.md"
+   ],
+   "recall": 0.3333333333333333,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "quant-cliff:6fc4bf41db",
+   "repo": "quant-cliff",
+   "query": "README: 4-bit losses are at most 1.9 pp (Qwen2.5 gains 2.5 on maths)",
+   "gold": [
+    "quant-cliff/README.md"
+   ],
+   "top": [
+    "quant-cliff/README.md",
+    "quant-cliff/HYPOTHESES.md",
+    "quant-cliff/reports/scorecard.md",
+    "quant-cliff/reports/scorecard_pilot.md",
+    "groupthink/reports/scorecard.md",
+    "groupthink/README.md",
+    "prompt-brittleness/README.md",
+    "groupthink/reports/scorecard_pilot.md",
+    "evalpair/README.md",
+    "prompt-brittleness/HYPOTHESES.md"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "quant-cliff:ce92cdfb9a",
+   "repo": "quant-cliff",
+   "query": "Parse a space used as a thousands separator on the answer line; re-score (no verdict changes)",
+   "gold": [
+    "quant-cliff/HYPOTHESES.md",
+    "quant-cliff/README.md",
+    "quant-cliff/reports/results.md",
+    "quant-cliff/reports/scorecard.md",
+    "quant-cliff/src/qcliff/parse.py",
+    "quant-cliff/tests/test_parse.py"
+   ],
+   "top": [
+    "groupthink/HYPOTHESES.md",
+    "groupthink/tests/test_core.py",
+    "evalpair/tests/test_checkers.py",
+    "groupthink/src/gthink/parse.py",
+    "quant-cliff/HYPOTHESES.md",
+    "quant-cliff/src/qcliff/parse.py",
+    "evalpair/src/evalpair/checkers.py",
+    "quant-cliff/tests/test_parse.py",
+    "quant-cliff/README.md",
+    "llm-judge-bias/tests/test_parse.py"
+   ],
+   "recall": 0.6666666666666666,
+   "hit": 1.0,
+   "mrr": 0.2
+  },
+  {
+   "id": "quant-cliff:ad1314d2c1",
+   "repo": "quant-cliff",
+   "query": "Full run: results, scorecard (8 held, 5 partly, 0 failed), addendum and README",
+   "gold": [
+    "quant-cliff/HYPOTHESES.md",
+    "quant-cliff/README.md",
+    "quant-cliff/reports/results.md",
+    "quant-cliff/reports/scorecard.md",
+    "quant-cliff/src/qcliff/report.py",
+    "quant-cliff/src/qcliff/score.py"
+   ],
+   "top": [
+    "quant-cliff/README.md",
+    "groupthink/README.md",
+    "groupthink/HYPOTHESES.md",
+    "groupthink/reports/scorecard.md",
+    "groupthink/reports/scorecard_pilot.md",
+    "quant-cliff/reports/scorecard_pilot.md",
+    "quant-cliff/reports/scorecard.md",
+    "format-tax/README.md",
+    "groupthink/src/gthink/score.py",
+    "long-context-recall/RUN.md"
+   ],
+   "recall": 0.3333333333333333,
+   "hit": 1.0,
+   "mrr": 1.0
+  }
+ ]
+}
