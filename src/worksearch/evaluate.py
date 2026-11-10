@@ -31,7 +31,7 @@ def per_query(ranked: list[str], gold: list[str]) -> dict:
             "mrr": 1 / first if first else 0.0}
 
 
-def run(retriever: str, split: str) -> dict:
+def run(retriever: str, split: str, scope: str = "all") -> dict:
     chunks = load_chunks()
     qs = [json.loads(line) for line in open("data/queries.jsonl")]
     qs = [q for q in qs if q["split"] == split]
@@ -47,11 +47,14 @@ def run(retriever: str, split: str) -> dict:
         D = Dense(texts, path, cache).scores_many([q["query"] for q in qs])
     S = B if retriever == "bm25" else rrf(B, D) if hybrid else D
     items = []
+    repo_of = np.array([c["repo"] for c in chunks])
     for q, s in zip(qs, S):
+        if scope == "repo":  # search only the commit's own repo, as `--repo` does
+            s = np.where(repo_of == q["repo"], s, -np.inf)
         ranked = [f for f, _, _ in rank_files(s, chunks, K)]
         items.append({"id": q["id"], "repo": q["repo"], "query": q["query"], "gold": q["files"], "top": ranked,
                       **per_query(ranked, q["files"])})
-    return {"retriever": retriever, "split": split, "n": len(items), **summary(items), "items": items}
+    return {"retriever": retriever, "split": split, "scope": scope, "n": len(items), **summary(items), "items": items}
 
 
 def rrf(*score_sets: np.ndarray, k: int = 60) -> np.ndarray:
@@ -94,16 +97,17 @@ def main():
     ap.add_argument("retriever", help="bm25, base, a model folder, or 'compare'")
     ap.add_argument("files", nargs="*")
     ap.add_argument("--split", default="valid", choices=["train", "valid", "test"])
+    ap.add_argument("--scope", default="all", choices=["all", "repo"], help="search every repo, or the query's own")
     a = ap.parse_args()
     if a.retriever == "compare":
         x, y = (json.loads(Path(f).read_text()) for f in a.files)
         print(json.dumps(compare(x, y), indent=1))
         return
-    out = run(a.retriever, a.split)
+    out = run(a.retriever, a.split, a.scope)
     name = a.retriever if a.retriever in ("bm25", "base") else (
         "hybrid-" if a.retriever.startswith("hybrid:") else "") + Path(a.retriever.removeprefix("hybrid:")).name
     Path("results").mkdir(exist_ok=True)
-    Path(f"results/{a.split}-{name}.json").write_text(json.dumps(out, indent=1) + "\n")
+    Path(f"results/{a.split}{'-repo' if a.scope == 'repo' else ''}-{name}.json").write_text(json.dumps(out, indent=1) + "\n")
     print(json.dumps({k: v for k, v in out.items() if k != "items"}))
 
 

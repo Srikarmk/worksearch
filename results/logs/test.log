@@ -1,0 +1,10 @@
+{"retriever": "bm25", "split": "test", "scope": "all", "n": 52, "recall": {"mean": 0.579, "ci": [0.49, 0.668]}, "hit": {"mean": 0.904, "ci": [0.827, 0.981]}, "mrr": {"mean": 0.596, "ci": [0.496, 0.691]}}
+{"retriever": "bm25", "split": "test", "scope": "repo", "n": 52, "recall": {"mean": 0.765, "ci": [0.696, 0.833]}, "hit": {"mean": 0.981, "ci": [0.942, 1.0]}, "mrr": {"mean": 0.781, "ci": [0.694, 0.863]}}
+{"retriever": "base", "split": "test", "scope": "all", "n": 52, "recall": {"mean": 0.504, "ci": [0.409, 0.605]}, "hit": {"mean": 0.808, "ci": [0.712, 0.904]}, "mrr": {"mean": 0.519, "ci": [0.41, 0.63]}}
+{"retriever": "base", "split": "test", "scope": "repo", "n": 52, "recall": {"mean": 0.726, "ci": [0.651, 0.8]}, "hit": {"mean": 0.962, "ci": [0.904, 1.0]}, "mrr": {"mean": 0.75, "ci": [0.664, 0.832]}}
+{"retriever": "hybrid:base", "split": "test", "scope": "all", "n": 52, "recall": {"mean": 0.593, "ci": [0.508, 0.682]}, "hit": {"mean": 0.942, "ci": [0.884, 1.0]}, "mrr": {"mean": 0.674, "ci": [0.571, 0.775]}}
+{"retriever": "hybrid:base", "split": "test", "scope": "repo", "n": 52, "recall": {"mean": 0.782, "ci": [0.711, 0.849]}, "hit": {"mean": 0.981, "ci": [0.942, 1.0]}, "mrr": {"mean": 0.881, "ci": [0.805, 0.949]}}
+{"retriever": "models/commits-e3-lr5e-5", "split": "test", "scope": "all", "n": 52, "recall": {"mean": 0.498, "ci": [0.403, 0.596]}, "hit": {"mean": 0.846, "ci": [0.75, 0.942]}, "mrr": {"mean": 0.477, "ci": [0.379, 0.576]}}
+{"retriever": "models/commits-e3-lr5e-5", "split": "test", "scope": "repo", "n": 52, "recall": {"mean": 0.703, "ci": [0.629, 0.776]}, "hit": {"mean": 0.962, "ci": [0.904, 1.0]}, "mrr": {"mean": 0.715, "ci": [0.623, 0.806]}}
+{"retriever": "hybrid:models/all-e3-lr5e-5", "split": "test", "scope": "all", "n": 52, "recall": {"mean": 0.627, "ci": [0.541, 0.712]}, "hit": {"mean": 0.923, "ci": [0.846, 0.981]}, "mrr": {"mean": 0.688, "ci": [0.589, 0.784]}}
+{"retriever": "hybrid:models/all-e3-lr5e-5", "split": "test", "scope": "repo", "n": 52, "recall": {"mean": 0.793, "ci": [0.721, 0.862]}, "hit": {"mean": 0.981, "ci": [0.942, 1.0]}, "mrr": {"mean": 0.857, "ci": [0.776, 0.93]}}

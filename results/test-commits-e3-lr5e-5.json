@@ -1,0 +1,1355 @@
+{
+ "retriever": "models/commits-e3-lr5e-5",
+ "split": "test",
+ "scope": "all",
+ "n": 52,
+ "recall": {
+  "mean": 0.498,
+  "ci": [
+   0.403,
+   0.596
+  ]
+ },
+ "hit": {
+  "mean": 0.846,
+  "ci": [
+   0.75,
+   0.942
+  ]
+ },
+ "mrr": {
+  "mean": 0.477,
+  "ci": [
+   0.379,
+   0.576
+  ]
+ },
+ "items": [
+  {
+   "id": "Gitgotchi:10e005de9a",
+   "repo": "Gitgotchi",
+   "query": "Release 0.4.1: link the website and fit its nav on phones",
+   "gold": [
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/INSTALL.md",
+    "Gitgotchi/README.md",
+    "Gitgotchi/pyproject.toml",
+    "Gitgotchi/site/index.html",
+    "Gitgotchi/src/gitgotchi/__init__.py"
+   ],
+   "top": [
+    "council-votes/web/components/shell.tsx",
+    "Keystone/apps/web/components/SiteHeader.tsx",
+    "Keystone/apps/web/lib/theme.ts",
+    "fantasy-racer/app/layout.tsx",
+    "fantasy-racer/app/globals.css",
+    "hearth/tools/dev/companion_mock.py",
+    "Keystone/apps/web/components/RowLink.tsx",
+    "Keystone/apps/web/components/PaperActions.tsx",
+    "Keystone/apps/web/app/profile/page.tsx",
+    "Keystone/apps/web/components/Footer.tsx"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "Gitgotchi:3e3c83d2bf",
+   "repo": "Gitgotchi",
+   "query": "Release 0.4.0: CLI commands, tests and docs for the new features",
+   "gold": [
+    "Gitgotchi/.github/workflows/ci.yml",
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/README.md",
+    "Gitgotchi/site/index.html",
+    "Gitgotchi/src/gitgotchi/__init__.py",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/tests/test_features.py"
+   ],
+   "top": [
+    "evalpair/tests/test_cli.py",
+    "whygit/tests/test_cli.py",
+    "Gitgotchi/tests/test_cli.py",
+    "bostonmove/.github/workflows/ci.yml",
+    "prompt-brittleness/tests/test_llm_cache.py",
+    "datasniff/.github/workflows/ci.yml",
+    "evalpair/tests/test_server.py",
+    "tool-call-reliability/tests/test_llm.py",
+    "Gitgotchi/tests/test_features.py",
+    "datasniff/tests/test_cli.py"
+   ],
+   "recall": 0.14285714285714285,
+   "hit": 1.0,
+   "mrr": 0.1111111111111111
+  },
+  {
+   "id": "Gitgotchi:878c85a75a",
+   "repo": "Gitgotchi",
+   "query": "Add README badges and animated cards",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/render/badge.py",
+    "Gitgotchi/src/gitgotchi/render/card.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/tests/test_features.py",
+    "Gitgotchi/src/gitgotchi/render/badge.py",
+    "Srikarmk-profile/README.md",
+    "Gitgotchi/src/gitgotchi/render/card.py",
+    "fantasy-racer/app/globals.css",
+    "Gitgotchi/README.md",
+    "Gitgotchi/scripts/render_assets.py",
+    "Gitgotchi/src/gitgotchi/pet/renderer.py",
+    "fantasy-racer/app/components/ResultsScreen.tsx"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.3333333333333333
+  },
+  {
+   "id": "Gitgotchi:a762226f44",
+   "repo": "Gitgotchi",
+   "query": "Add gitgotchi doctor",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/doctor.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/__init__.py",
+    "Gitgotchi/src/gitgotchi/__main__.py",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/doctor.py",
+    "Gitgotchi/src/gitgotchi/hooks/__init__.py",
+    "Gitgotchi/INSTALL.md",
+    "Gitgotchi/site/index.html",
+    "Gitgotchi/README.md",
+    "Gitgotchi/tests/test_features.py",
+    "Gitgotchi/src/gitgotchi/render/font.py"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.25
+  },
+  {
+   "id": "Gitgotchi:2a9e370e4a",
+   "repo": "Gitgotchi",
+   "query": "Let people choose how much the hook prints",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/hooks/post_commit.py",
+    "Gitgotchi/src/gitgotchi/pet/renderer.py"
+   ],
+   "top": [
+    "Gitgotchi/tests/test_hooks.py",
+    "Gitgotchi/src/gitgotchi/hooks/__init__.py",
+    "rag-poisoning/src/ragpoison/cli.py",
+    "fantasy-racer/eslint.config.mjs",
+    "Keystone/services/core/tests/test_stance_labels.py",
+    "Gitgotchi/src/gitgotchi/hooks/installer.py",
+    "fantasy-racer/test/budgets.mjs",
+    "fantasy-racer/src/game/render.ts",
+    "Keystone/apps/web/components/MarkedPapers.tsx",
+    "Gitgotchi/tests/test_render.py"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "Gitgotchi:b8f2bea940",
+   "repo": "Gitgotchi",
+   "query": "Add gitgotchi-statusline for Claude Code, tmux and Starship",
+   "gold": [
+    "Gitgotchi/pyproject.toml",
+    "Gitgotchi/src/gitgotchi/statusline.py",
+    "Gitgotchi/tests/test_statusline.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/statusline.py",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/__init__.py",
+    "Gitgotchi/src/gitgotchi/__main__.py",
+    "Gitgotchi/site/index.html",
+    "Gitgotchi/README.md",
+    "Gitgotchi/INSTALL.md",
+    "Gitgotchi/src/gitgotchi/doctor.py",
+    "Gitgotchi/tests/test_statusline.py",
+    "Gitgotchi/src/gitgotchi/hooks/installer.py"
+   ],
+   "recall": 0.6666666666666666,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Gitgotchi:220c66a99e",
+   "repo": "Gitgotchi",
+   "query": "Sharpen the sprites",
+   "gold": [
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/src/gitgotchi/__init__.py",
+    "Gitgotchi/src/gitgotchi/render/__init__.py",
+    "Gitgotchi/src/gitgotchi/render/forms.py",
+    "Gitgotchi/src/gitgotchi/render/raster.py"
+   ],
+   "top": [
+    "fantasy-racer/src/game3d/weather.ts",
+    "fantasy-racer/src/game/sprites.ts",
+    "Gitgotchi/src/gitgotchi/render/effects.py",
+    "Gitgotchi/src/gitgotchi/render/__init__.py",
+    "fantasy-racer/src/game3d/textures.ts",
+    "fantasy-racer/src/game3d/props/hogwarts.ts",
+    "fantasy-racer/scripts/optimize-textures.mjs",
+    "fantasy-racer/src/game/engine.ts",
+    "fantasy-racer/src/game/render.ts",
+    "hearth/themes/ember/make_wallpaper.py"
+   ],
+   "recall": 0.2,
+   "hit": 1.0,
+   "mrr": 0.25
+  },
+  {
+   "id": "Gitgotchi:78ff7e6622",
+   "repo": "Gitgotchi",
+   "query": "Fall back to the old pet location when it can't be moved yet",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/paths.py",
+    "Gitgotchi/tests/test_state_manager.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/paths.py",
+    "Gitgotchi/tests/test_state_manager.py",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/pet/states.py",
+    "Gitgotchi/src/gitgotchi/render/effects.py",
+    "fantasy-racer/src/ui/storage.ts",
+    "bostonmove/tests/test_engine.py",
+    "Gitgotchi/tests/test_states.py",
+    "hearth/tools/recovery.py",
+    "fantasy-racer/src/game/render.ts"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Gitgotchi:39801427f0",
+   "repo": "Gitgotchi",
+   "query": "Add a landing page and a GitHub Pages workflow",
+   "gold": [
+    "Gitgotchi/.github/workflows/pages.yml",
+    "Gitgotchi/site/index.html"
+   ],
+   "top": [
+    "Gitgotchi/.github/workflows/pages.yml",
+    "Silent-RAG-Failures/.github/workflows/pages.yml",
+    "Silent-RAG-Failures/site/next.config.mjs",
+    "whygit/src/whygit/gitcmd.py",
+    "Gitgotchi/.github/workflows/publish.yml",
+    "whygit/.github/workflows/publish.yml",
+    "whygit/RELEASING.md",
+    "evalpair/.github/workflows/publish.yml",
+    "whygit/tests/scenarios.py",
+    "evalpair/.github/workflows/registry.yml"
+   ],
+   "recall": 0.5,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Gitgotchi:949e5cdb64",
+   "repo": "Gitgotchi",
+   "query": "Fix haunt, seance and history edge cases",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/demo.py",
+    "Gitgotchi/src/gitgotchi/haunt.py",
+    "Gitgotchi/src/gitgotchi/history.py",
+    "Gitgotchi/src/gitgotchi/pet/renderer.py",
+    "Gitgotchi/src/gitgotchi/seance/hauntings.py",
+    "Gitgotchi/tests/test_haunt.py",
+    "Gitgotchi/tests/test_hauntings.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/seance/hauntings.py",
+    "Gitgotchi/src/gitgotchi/seance/story_gen.py",
+    "Gitgotchi/src/gitgotchi/seance/__init__.py",
+    "Gitgotchi/tests/test_hauntings.py",
+    "Gitgotchi/tests/test_story.py",
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/tests/test_haunt.py",
+    "Keystone/apps/web/app/api/history/route.ts",
+    "Gitgotchi/site/index.html"
+   ],
+   "recall": 0.42857142857142855,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Gitgotchi:14f5c6920f",
+   "repo": "Gitgotchi",
+   "query": "Harden the post-commit hook",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/hooks/installer.py",
+    "Gitgotchi/src/gitgotchi/hooks/post_commit.py",
+    "Gitgotchi/tests/test_hooks.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/hooks/installer.py",
+    "Gitgotchi/src/gitgotchi/hooks/post_commit.py",
+    "Gitgotchi/tests/test_hooks.py",
+    "Gitgotchi/src/gitgotchi/haunt.py",
+    "Gitgotchi/src/gitgotchi/demo.py",
+    "whygit/src/whygit/rules.py",
+    "fantasy-racer/next.config.ts",
+    "Gitgotchi/src/gitgotchi/hooks/__init__.py",
+    "Gitgotchi/src/gitgotchi/doctor.py",
+    "whygit/src/whygit/errors.py"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Gitgotchi:66876117aa",
+   "repo": "Gitgotchi",
+   "query": "Share one pet across worktrees and make writes atomic",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/db/models.py",
+    "Gitgotchi/src/gitgotchi/db/state_manager.py",
+    "Gitgotchi/src/gitgotchi/paths.py",
+    "Gitgotchi/src/gitgotchi/pet/states.py",
+    "Gitgotchi/tests/test_history.py",
+    "Gitgotchi/tests/test_state_manager.py",
+    "Gitgotchi/tests/test_states.py"
+   ],
+   "top": [
+    "format-tax/src/ftax/data.py",
+    "Gitgotchi/src/gitgotchi/paths.py",
+    "Gitgotchi/tests/test_state_manager.py",
+    "quant-cliff/src/qcliff/data.py",
+    "Gitgotchi/src/gitgotchi/pet/__init__.py",
+    "whygit/tests/test_readonly.py",
+    "Gitgotchi/src/gitgotchi/doctor.py",
+    "groupthink/src/gthink/data.py",
+    "Silent-RAG-Failures/CONTRIBUTING.md",
+    "evalpair/tests/conftest.py"
+   ],
+   "recall": 0.2857142857142857,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Gitgotchi:985da271aa",
+   "repo": "Gitgotchi",
+   "query": "Stop flagging people as AI agents",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/pet/possession.py",
+    "Gitgotchi/tests/test_possession.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/pet/possession.py",
+    "Gitgotchi/tests/test_possession.py",
+    "Gitgotchi/site/index.html",
+    "datasniff/tests/fixtures/get-www-kaggle-com-datasets-nobody-xyz-nothing-xyz-croissant-download-1fb5cc4f.json",
+    "groupthink/src/gthink/__init__.py",
+    "fantasy-racer/src/ui/identity.ts",
+    "groupthink/README.md",
+    "Gitgotchi/src/gitgotchi/render/forms.py",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "groupthink/tests/test_core.py"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Gitgotchi:dd14a4fc01",
+   "repo": "Gitgotchi",
+   "query": "Fix CI smoke check for the new status layout and the Windows test",
+   "gold": [
+    "Gitgotchi/.github/workflows/ci.yml",
+    "Gitgotchi/.github/workflows/publish.yml",
+    "Gitgotchi/tests/test_render.py"
+   ],
+   "top": [
+    "hearth/.github/workflows/ci.yml",
+    "Gitgotchi/.github/workflows/ci.yml",
+    "whygit/src/whygit/render.py",
+    "council-votes/.github/workflows/ci.yml",
+    "Silent-RAG-Failures/tests/test_detector_scoring.py",
+    "Silent-RAG-Failures/.github/workflows/tests.yml",
+    "fantasy-racer/app/globals.css",
+    "Silent-RAG-Failures/tests/test_bootstrap_ci.py",
+    "datasniff/.github/workflows/ci.yml",
+    "Gitgotchi/src/gitgotchi/pet/renderer.py"
+   ],
+   "recall": 0.3333333333333333,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Gitgotchi:fb8277d64b",
+   "repo": "Gitgotchi",
+   "query": "Add gitgotchi demo: a throwaway repo haunted while agents commit",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/demo.py",
+    "Gitgotchi/src/gitgotchi/haunt.py"
+   ],
+   "top": [
+    "Gitgotchi/site/index.html",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/src/gitgotchi/__init__.py",
+    "Gitgotchi/README.md",
+    "Gitgotchi/src/gitgotchi/haunt.py",
+    "Gitgotchi/src/gitgotchi/doctor.py",
+    "Gitgotchi/src/gitgotchi/demo.py",
+    "Gitgotchi/INSTALL.md",
+    "Gitgotchi/tests/test_haunt.py"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Gitgotchi:880d603ff1",
+   "repo": "Gitgotchi",
+   "query": "Add gitgotchi seance: ghost stories from the repo's real history",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/seance/hauntings.py",
+    "Gitgotchi/src/gitgotchi/seance/story_gen.py",
+    "Gitgotchi/tests/test_hauntings.py",
+    "Gitgotchi/tests/test_story.py"
+   ],
+   "top": [
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/README.md",
+    "Gitgotchi/src/gitgotchi/seance/hauntings.py",
+    "Gitgotchi/site/index.html",
+    "Gitgotchi/src/gitgotchi/seance/story_gen.py",
+    "Gitgotchi/tests/test_hauntings.py",
+    "Gitgotchi/src/gitgotchi/seance/__init__.py",
+    "Gitgotchi/src/gitgotchi/haunt.py",
+    "Gitgotchi/src/gitgotchi/__init__.py"
+   ],
+   "recall": 0.8,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Gitgotchi:19ed2f4763",
+   "repo": "Gitgotchi",
+   "query": "Add gitgotchi card, a shareable 1200x630 PNG of the pet",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/db/state_manager.py",
+    "Gitgotchi/src/gitgotchi/render/card.py",
+    "Gitgotchi/src/gitgotchi/render/font.py",
+    "Gitgotchi/tests/test_cli.py",
+    "Gitgotchi/tests/test_render.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/README.md",
+    "Gitgotchi/src/gitgotchi/render/card.py",
+    "Gitgotchi/site/index.html",
+    "Gitgotchi/scripts/render_assets.py",
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/tests/test_features.py",
+    "Gitgotchi/tests/test_render.py",
+    "Gitgotchi/src/gitgotchi/pet/__init__.py",
+    "Gitgotchi/src/gitgotchi/pet/renderer.py"
+   ],
+   "recall": 0.5,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Gitgotchi:54cba9b292",
+   "repo": "Gitgotchi",
+   "query": "Add tests for possession, history replay, haunt and rendering",
+   "gold": [
+    "Gitgotchi/tests/test_haunt.py",
+    "Gitgotchi/tests/test_history.py",
+    "Gitgotchi/tests/test_possession.py",
+    "Gitgotchi/tests/test_render.py"
+   ],
+   "top": [
+    "Gitgotchi/tests/test_story.py",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/tests/test_hauntings.py",
+    "Gitgotchi/src/gitgotchi/seance/hauntings.py",
+    "Gitgotchi/tests/test_history.py",
+    "Gitgotchi/src/gitgotchi/db/state_manager.py",
+    "memory-rot/tests/test_history.py",
+    "fantasy-racer/app/components/GameCanvas.tsx",
+    "experiment-forensics/tests/test_data.py",
+    "Keystone/apps/web/app/api/history/route.ts"
+   ],
+   "recall": 0.25,
+   "hit": 1.0,
+   "mrr": 0.2
+  },
+  {
+   "id": "Gitgotchi:44f380880d",
+   "repo": "Gitgotchi",
+   "query": "Add gitgotchi adopt to raise the pet on existing history",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/db/state_manager.py",
+    "Gitgotchi/src/gitgotchi/history.py",
+    "Gitgotchi/src/gitgotchi/pet/states.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/doctor.py",
+    "Gitgotchi/INSTALL.md",
+    "Gitgotchi/src/gitgotchi/paths.py",
+    "Gitgotchi/src/gitgotchi/haunt.py",
+    "Gitgotchi/src/gitgotchi/__init__.py",
+    "Gitgotchi/README.md",
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/src/gitgotchi/hooks/installer.py",
+    "Gitgotchi/src/gitgotchi/pet/__init__.py"
+   ],
+   "recall": 0.25,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Gitgotchi:9463d64ebc",
+   "repo": "Gitgotchi",
+   "query": "Add gitgotchi haunt, a live pane that reacts to commits",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/db/state_manager.py",
+    "Gitgotchi/src/gitgotchi/haunt.py",
+    "Gitgotchi/src/gitgotchi/hooks/post_commit.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/haunt.py",
+    "Gitgotchi/src/gitgotchi/__init__.py",
+    "Gitgotchi/site/index.html",
+    "Gitgotchi/README.md",
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/tests/test_haunt.py",
+    "Gitgotchi/src/gitgotchi/__main__.py",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/hooks/installer.py",
+    "Gitgotchi/src/gitgotchi/hooks/__init__.py"
+   ],
+   "recall": 0.5,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "Gitgotchi:971a6f316f",
+   "repo": "Gitgotchi",
+   "query": "Add 3D pixel-art renderer and models for every form",
+   "gold": [
+    "Gitgotchi/pyproject.toml",
+    "Gitgotchi/src/gitgotchi/render/__init__.py",
+    "Gitgotchi/src/gitgotchi/render/forms.py",
+    "Gitgotchi/src/gitgotchi/render/raster.py",
+    "Gitgotchi/src/gitgotchi/render/scene.py"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/render/terminal.py",
+    "Gitgotchi/src/gitgotchi/render/raster.py",
+    "Gitgotchi/src/gitgotchi/render/__init__.py",
+    "fantasy-racer/src/game3d/props/grand.ts",
+    "Gitgotchi/tests/test_render.py",
+    "fantasy-racer/src/game3d/assets.ts",
+    "Gitgotchi/scripts/render_assets.py",
+    "fantasy-racer/src/game3d/textures.ts",
+    "fantasy-racer/src/game3d/capability.ts",
+    "fantasy-racer/scripts/optimize-textures.mjs"
+   ],
+   "recall": 0.4,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "Gitgotchi:7fdd191444",
+   "repo": "Gitgotchi",
+   "query": "Remove Kiro project files",
+   "gold": [
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/README.md",
+    "Gitgotchi/pyproject.toml",
+    "Gitgotchi/src/gitgotchi/__init__.py"
+   ],
+   "top": [
+    "whygit/README.md",
+    "Silent-RAG-Failures/site/jsconfig.json",
+    "whygit/src/whygit/errors.py",
+    "whygit/src/whygit/rules.py",
+    "whygit/pyproject.toml",
+    "Keystone/apps/web/pyproject.toml",
+    "Aurora-GP/results/hetero_independent.json",
+    "datasniff/src/datasniff/__init__.py",
+    "Gitgotchi/src/gitgotchi/seance/hauntings.py",
+    "whygit/src/whygit/state.py"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "Gitgotchi:4b51dadcee",
+   "repo": "Gitgotchi",
+   "query": "Update docs and changelog for 0.2.0",
+   "gold": [
+    "Gitgotchi/CHANGELOG.md",
+    "Gitgotchi/INSTALL.md",
+    "Gitgotchi/README.md"
+   ],
+   "top": [
+    "Gitgotchi/pyproject.toml",
+    "hearth/.github/workflows/release.yml",
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/CHANGELOG.md",
+    "whygit/src/whygit/__init__.py",
+    "Keystone/apps/web/package.json",
+    "Gitgotchi/site/index.html",
+    "Gitgotchi/tests/test_states.py",
+    "Silent-RAG-Failures/site/package.json",
+    "Gitgotchi/.github/workflows/publish.yml"
+   ],
+   "recall": 0.3333333333333333,
+   "hit": 1.0,
+   "mrr": 0.25
+  },
+  {
+   "id": "Gitgotchi:441fcc3582",
+   "repo": "Gitgotchi",
+   "query": "Add CI and tag-based PyPI publishing",
+   "gold": [
+    "Gitgotchi/.github/workflows/ci.yml",
+    "Gitgotchi/.github/workflows/publish.yml"
+   ],
+   "top": [
+    "whygit/RELEASING.md",
+    "evalpair/RELEASING.md",
+    "datasniff/RELEASING.md",
+    "bostonmove/RELEASING.md",
+    "evalpair/.github/workflows/registry.yml",
+    "bostonmove/.github/workflows/registry.yml",
+    "whygit/.github/workflows/publish.yml",
+    "datasniff/.github/workflows/publish.yml",
+    "evalpair/.github/workflows/publish.yml",
+    "Gitgotchi/.github/workflows/publish.yml"
+   ],
+   "recall": 0.5,
+   "hit": 1.0,
+   "mrr": 0.1
+  },
+  {
+   "id": "Gitgotchi:e9f7251182",
+   "repo": "Gitgotchi",
+   "query": "Fix hook lifecycle, state location and quality scoring",
+   "gold": [
+    "Gitgotchi/src/gitgotchi/cli.py",
+    "Gitgotchi/src/gitgotchi/db/state_manager.py",
+    "Gitgotchi/src/gitgotchi/hooks/installer.py",
+    "Gitgotchi/src/gitgotchi/hooks/post_commit.py",
+    "Gitgotchi/src/gitgotchi/paths.py",
+    "Gitgotchi/src/gitgotchi/pet/quality.py",
+    "Gitgotchi/src/gitgotchi/pet/states.py",
+    "Gitgotchi/src/gitgotchi/seance/story_gen.py"
+   ],
+   "top": [
+    "Gitgotchi/tests/test_hooks.py",
+    "Gitgotchi/src/gitgotchi/hooks/__init__.py",
+    "Silent-RAG-Failures/tests/test_audit_fixes.py",
+    "Silent-RAG-Failures/tests/test_configs.py",
+    "Gitgotchi/tests/test_features.py",
+    "Aurora-GP/results/region_identification/concrete/config.json",
+    "Gitgotchi/tests/test_state_manager.py",
+    "Gitgotchi/tests/test_quality.py",
+    "Aurora-GP/results/region_identification/synthetic_heteroscedastic/config.json",
+    "Gitgotchi/src/gitgotchi/hooks/installer.py"
+   ],
+   "recall": 0.125,
+   "hit": 1.0,
+   "mrr": 0.1
+  },
+  {
+   "id": "bostonmove:5f1b55d9bb",
+   "repo": "bostonmove",
+   "query": "0.1.1: line up departure columns across route names, show Bluebikes feed time in Boston time",
+   "gold": [
+    "bostonmove/pyproject.toml",
+    "bostonmove/server.json",
+    "bostonmove/src/bostonmove/__init__.py",
+    "bostonmove/src/bostonmove/cli.py",
+    "bostonmove/src/bostonmove/engine.py",
+    "bostonmove/src/bostonmove/sources.py",
+    "bostonmove/tests/test_cli.py"
+   ],
+   "top": [
+    "bostonmove/src/bostonmove/cli.py",
+    "bostonmove/src/bostonmove/sources.py",
+    "bostonmove/src/bostonmove/engine.py",
+    "bostonmove/README.md",
+    "bostonmove/src/bostonmove/server.py",
+    "bostonmove/pyproject.toml",
+    "bostonmove/tests/fixtures/ad553a1c114f862f.json",
+    "bostonmove/tests/record_fixtures.py",
+    "bostonmove/src/bostonmove/web.py",
+    "bostonmove/server.json"
+   ],
+   "recall": 0.7142857142857143,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "bostonmove:ea77e8eede",
+   "repo": "bostonmove",
+   "query": "Publish to the MCP registry from GitHub Actions after each PyPI release",
+   "gold": [
+    "bostonmove/.github/workflows/registry.yml",
+    "bostonmove/RELEASING.md"
+   ],
+   "top": [
+    "evalpair/RELEASING.md",
+    "bostonmove/RELEASING.md",
+    "evalpair/.github/workflows/registry.yml",
+    "bostonmove/.github/workflows/registry.yml",
+    "datasniff/RELEASING.md",
+    "whygit/RELEASING.md",
+    "whygit/README.md",
+    "Gitgotchi/.github/workflows/publish.yml",
+    "whygit/pyproject.toml",
+    "whygit/.github/workflows/publish.yml"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "bostonmove:d439982863",
+   "repo": "bostonmove",
+   "query": "Release setup: tag-based PyPI publishing, MCP registry metadata, uvx install docs",
+   "gold": [
+    "bostonmove/.github/workflows/publish.yml",
+    "bostonmove/README.md",
+    "bostonmove/RELEASING.md",
+    "bostonmove/pyproject.toml",
+    "bostonmove/server.json"
+   ],
+   "top": [
+    "evalpair/RELEASING.md",
+    "datasniff/RELEASING.md",
+    "whygit/RELEASING.md",
+    "bostonmove/RELEASING.md",
+    "evalpair/.github/workflows/registry.yml",
+    "bostonmove/.github/workflows/registry.yml",
+    "datasniff/.github/workflows/publish.yml",
+    "whygit/.github/workflows/publish.yml",
+    "evalpair/.github/workflows/publish.yml",
+    "bostonmove/.github/workflows/publish.yml"
+   ],
+   "recall": 0.4,
+   "hit": 1.0,
+   "mrr": 0.25
+  },
+  {
+   "id": "council-votes:23168440d7",
+   "repo": "council-votes",
+   "query": "README: lead with coverage to the latest meeting; the 2024 dataset is a cross-check",
+   "gold": [
+    "council-votes/README.md"
+   ],
+   "top": [
+    "datasniff/tests/fixtures/get-huggingface-co-api-datasets-bigcode-the-stack-8c4403fa.json",
+    "MLOps-Lab3/README.md",
+    "tool-call-reliability/README.md",
+    "experiment-forensics/README.md",
+    "rag-poisoning/README.md",
+    "Keystone/apps/web/public/dossiers/accuracy.json",
+    "groupthink/README.md",
+    "MLOps-Lab2/README.md",
+    "Keystone/apps/web/public/dossiers/1607.01759.context.json",
+    "prompt-brittleness/README.md"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "council-votes:b44e840e23",
+   "repo": "council-votes",
+   "query": "README: link the live site",
+   "gold": [
+    "council-votes/README.md"
+   ],
+   "top": [
+    "evalpair/tests/test_checkers.py",
+    "Keystone/apps/web/app/not-found.tsx",
+    "Keystone/apps/web/app/signin/page.tsx",
+    "Keystone/apps/web/app/api/history/route.ts",
+    "Keystone/README.md",
+    "datasniff/README.md",
+    "Srikarmk-profile/README.md",
+    "Keystone/apps/web/components/ReadingList.tsx",
+    "Keystone/apps/web/test/feeds.test.ts",
+    "rag-poisoning/README.md"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "council-votes:2de2fbd068",
+   "repo": "council-votes",
+   "query": "Next.js 15.5.29 and React 19.1.10 (security releases; Vercel won't deploy 15.5.4)",
+   "gold": [
+    "council-votes/web/package.json"
+   ],
+   "top": [
+    "Silent-RAG-Failures/site/package.json",
+    "fantasy-racer/package.json",
+    "fantasy-racer/AUDIT.md",
+    "Keystone/apps/web/package.json",
+    "council-votes/web/package.json",
+    "fantasy-racer/eslint.config.mjs",
+    "Keystone/CLAUDE.md",
+    "Keystone/apps/web/app/api/auth/[...nextauth]/route.ts",
+    "fantasy-racer/app/components/ServiceWorkerRegister.tsx",
+    "Keystone/apps/web/lib/built.ts"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.2
+  },
+  {
+   "id": "council-votes:b37c22ca2c",
+   "repo": "council-votes",
+   "query": "Commit only when the votes change: sorted agreement keys, keep the build time when nothing changed, a 3-day fetch heartbeat",
+   "gold": [
+    "council-votes/src/councilvotes/build.py",
+    "council-votes/src/councilvotes/cli.py",
+    "council-votes/web/app/about/page.tsx",
+    "council-votes/web/data/summary.json"
+   ],
+   "top": [
+    "Gitgotchi/src/gitgotchi/haunt.py",
+    "council-votes/.github/workflows/update.yml",
+    "memory-rot/handcheck/agreement.json",
+    "council-votes/web/app/votes/[id]/page.tsx",
+    "Gitgotchi/src/gitgotchi/demo.py",
+    "council-votes/src/councilvotes/cli.py",
+    "Gitgotchi/src/gitgotchi/db/state_manager.py",
+    "council-votes/web/lib/data.ts",
+    "Gitgotchi/tests/test_history.py",
+    "council-votes/web/components/vote-search.tsx"
+   ],
+   "recall": 0.25,
+   "hit": 1.0,
+   "mrr": 0.16666666666666666
+  },
+  {
+   "id": "council-votes:c09136737a",
+   "repo": "council-votes",
+   "query": "Keys by position: one record lists every councillor twice",
+   "gold": [
+    "council-votes/web/app/votes/[id]/page.tsx",
+    "council-votes/web/components/strip.tsx",
+    "council-votes/web/components/vote-search.tsx"
+   ],
+   "top": [
+    "council-votes/src/councilvotes/checks.py",
+    "council-votes/web/app/contradictions/page.tsx",
+    "council-votes/web/lib/data.ts",
+    "council-votes/src/councilvotes/build.py",
+    "council-votes/web/app/about/page.tsx",
+    "council-votes/web/app/councillors/[id]/page.tsx",
+    "council-votes/src/councilvotes/clean.py",
+    "council-votes/web/app/votes/[id]/page.tsx",
+    "council-votes/web/app/councillors/page.tsx",
+    "council-votes/web/app/votes/page.tsx"
+   ],
+   "recall": 0.3333333333333333,
+   "hit": 1.0,
+   "mrr": 0.125
+  },
+  {
+   "id": "council-votes:0851bc1c20",
+   "repo": "council-votes",
+   "query": "CLI, daily update and CI workflows, README",
+   "gold": [
+    "council-votes/.github/workflows/ci.yml",
+    "council-votes/.github/workflows/update.yml",
+    "council-votes/README.md",
+    "council-votes/pyproject.toml",
+    "council-votes/src/councilvotes/cli.py"
+   ],
+   "top": [
+    "whygit/README.md",
+    "tool-call-reliability/README.md",
+    "MLOps-Lab3/README.md",
+    "council-votes/.github/workflows/update.yml",
+    "MLOps-Lab2/README.md",
+    "evalpair/.github/workflows/registry.yml",
+    "datasniff/.github/workflows/ci.yml",
+    "bostonmove/.github/workflows/registry.yml",
+    "council-votes/.github/workflows/ci.yml",
+    "evalpair/RELEASING.md"
+   ],
+   "recall": 0.4,
+   "hit": 1.0,
+   "mrr": 0.25
+  },
+  {
+   "id": "council-votes:3968775043",
+   "repo": "council-votes",
+   "query": "Build step: site JSON for roll calls, councillors and a summary; readable motion titles",
+   "gold": [
+    "council-votes/src/councilvotes/build.py"
+   ],
+   "top": [
+    "council-votes/src/councilvotes/build.py",
+    "council-votes/web/app/votes/page.tsx",
+    "council-votes/web/app/votes/[id]/page.tsx",
+    "council-votes/src/councilvotes/parse.py",
+    "council-votes/web/lib/data.ts",
+    "council-votes/src/councilvotes/clean.py",
+    "council-votes/tests/fixtures/rollcall-page-0-2026-03-09.html",
+    "council-votes/web/components/vote-search.tsx",
+    "council-votes/src/councilvotes/__init__.py",
+    "council-votes/web/app/page.tsx"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "evalpair:ad50f85864",
+   "repo": "evalpair",
+   "query": "0.2.0: bump __version__ and server.json; version test reads __version__",
+   "gold": [
+    "evalpair/server.json",
+    "evalpair/src/evalpair/__init__.py",
+    "evalpair/tests/test_cli.py"
+   ],
+   "top": [
+    "whygit/server.json",
+    "whygit/tests/test_server.py",
+    "council-votes/web/package.json",
+    "evalpair/tests/test_cli.py",
+    "whygit/src/whygit/__init__.py",
+    "evalpair/tests/test_server.py",
+    "Keystone/apps/web/test/arxiv.test.ts",
+    "Keystone/apps/web/package.json",
+    "evalpair/.github/workflows/registry.yml",
+    "Keystone/services/core/tests/test_metadata.py"
+   ],
+   "recall": 0.3333333333333333,
+   "hit": 1.0,
+   "mrr": 0.25
+  },
+  {
+   "id": "evalpair:c75bbeba79",
+   "repo": "evalpair",
+   "query": "0.2.0: chrf checker",
+   "gold": [
+    "evalpair/pyproject.toml"
+   ],
+   "top": [
+    "evalpair/tests/test_checkers.py",
+    "evalpair/src/evalpair/checkers.py",
+    "Silent-RAG-Failures/tests/test_audit_fixes.py",
+    "tool-call-reliability/tests/test_llm.py",
+    "tool-call-reliability/reports/results_checker_v1.md",
+    "long-context-recall/tests/test_llm_cache.py",
+    "tool-call-reliability/src/toolrel/sandbox.py",
+    "Aurora-GP/src/validate_stage1.py",
+    "whygit/tests/test_server.py",
+    "evalpair/tests/test_cli.py"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "evalpair:a7e1400aca",
+   "repo": "evalpair",
+   "query": "chrf: drop an opening code fence that was never closed",
+   "gold": [
+    "evalpair/src/evalpair/checkers.py",
+    "evalpair/tests/test_checkers.py"
+   ],
+   "top": [
+    "evalpair/src/evalpair/checkers.py",
+    "evalpair/tests/test_checkers.py",
+    "fantasy-racer/src/game/render.ts",
+    "quant-cliff/reports/results.md",
+    "council-votes/data/raw/bostongov/page-0016.html",
+    "experiment-forensics/tests/test_guard.py",
+    "council-votes/data/raw/bostongov/page-0181.html",
+    "fantasy-racer/app/components/ServiceWorkerRegister.tsx",
+    "Gitgotchi/src/gitgotchi/demo.py",
+    "tool-call-reliability/reports/pilot.md"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "evalpair:2e0bce71d5",
+   "repo": "evalpair",
+   "query": "Add a chrf checker for free-text replies with a reference",
+   "gold": [
+    "evalpair/README.md",
+    "evalpair/src/evalpair/checkers.py",
+    "evalpair/src/evalpair/suites.py",
+    "evalpair/tests/test_checkers.py"
+   ],
+   "top": [
+    "evalpair/tests/test_checkers.py",
+    "evalpair/src/evalpair/checkers.py",
+    "rag-poisoning/src/ragpoison/defences.py",
+    "quant-cliff/src/qcliff/parse.py",
+    "format-tax/src/ftax/parse.py",
+    "memory-rot/tests/conftest.py",
+    "rag-poisoning/README.md",
+    "groupthink/README.md",
+    "evalpair/README.md",
+    "format-tax/README.md"
+   ],
+   "recall": 0.75,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "evalpair:d945d27a69",
+   "repo": "evalpair",
+   "query": "0.1.1: line up compare examples and label them B; excerpts on one line",
+   "gold": [
+    "evalpair/README.md",
+    "evalpair/pyproject.toml",
+    "evalpair/server.json",
+    "evalpair/src/evalpair/__init__.py",
+    "evalpair/src/evalpair/cli.py",
+    "evalpair/tests/test_cli.py"
+   ],
+   "top": [
+    "evalpair/tests/test_cli.py",
+    "Keystone/apps/web/lib/marks.ts",
+    "Keystone/services/core/keystone/audit/trace.py",
+    "Keystone/apps/web/app/api/guide/route.ts",
+    "Keystone/services/core/keystone/ingest/anchors.py",
+    "Keystone/services/core/keystone/ingest/sampling.py",
+    "Keystone/services/core/keystone/eval/external.py",
+    "Keystone/apps/web/components/Assumptions.tsx",
+    "Keystone/apps/web/lib/compare.ts",
+    "prompt-brittleness/src/brittle/report.py"
+   ],
+   "recall": 0.16666666666666666,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "evalpair:0a2ebc3e8e",
+   "repo": "evalpair",
+   "query": "Read a space as a thousands separator on answer lines; plain progress lines in logs; real compare example in README",
+   "gold": [
+    "evalpair/README.md",
+    "evalpair/src/evalpair/checkers.py",
+    "evalpair/src/evalpair/cli.py",
+    "evalpair/tests/test_checkers.py"
+   ],
+   "top": [
+    "groupthink/tests/test_core.py",
+    "prompt-brittleness/README.md",
+    "memory-rot/reports/results.md",
+    "quant-cliff/src/qcliff/runner.py",
+    "evalpair/tests/test_cli.py",
+    "rag-poisoning/src/ragpoison/checks.py",
+    "evalpair/README.md",
+    "Silent-RAG-Failures/README.md",
+    "memory-rot/src/memrot/runner.py",
+    "Keystone/apps/web/lib/marks.ts"
+   ],
+   "recall": 0.25,
+   "hit": 1.0,
+   "mrr": 0.14285714285714285
+  },
+  {
+   "id": "hearth:4a5f4bab38",
+   "repo": "hearth",
+   "query": "DNS self-repair after a power cut, and polish from the TV run",
+   "gold": [
+    "hearth/README.md",
+    "hearth/install.sh",
+    "hearth/launcher/app/src/main/res/raw/companion.html",
+    "hearth/tools/dev/companion_mock.py"
+   ],
+   "top": [
+    "hearth/tools/recovery.py",
+    "hearth/tools/restore.sh",
+    "hearth/tools/adb-closed.py",
+    "hearth/tools/theme_restart.py",
+    "hearth/uninstall.sh",
+    "hearth/tools/tv.py",
+    "hearth/tools/disable.sh",
+    "hearth/tools/b64push.py",
+    "hearth/install.sh",
+    "hearth/tools/theme.sh"
+   ],
+   "recall": 0.25,
+   "hit": 1.0,
+   "mrr": 0.1111111111111111
+  },
+  {
+   "id": "hearth:69fb5fa331",
+   "repo": "hearth",
+   "query": "README: what v0.1.0 has been run through on a Fire TV",
+   "gold": [
+    "hearth/README.md"
+   ],
+   "top": [
+    "hearth/README.md",
+    "hearth/lists/fire-tv-aftma2857f.txt",
+    "hearth/lists/fire-tv-aftss.txt",
+    "hearth/lists/fire-tv-aftkm.txt",
+    "hearth/lists/fire-tv-aftcibfbd1.txt",
+    "hearth/lists/fire-tv-aftshn02.txt",
+    "hearth/lists/fire-tv-aftolcbc82.txt",
+    "hearth/lists/fire-tv-aftmm.txt",
+    "hearth/lists/fire-tv-aftdec012e.txt",
+    "hearth/lists/fire-tv-afthy7abba.txt"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "hearth:071322aed5",
+   "repo": "hearth",
+   "query": "CREDITS: the home TV's list is fire-tv-afthy7abba.txt",
+   "gold": [
+    "hearth/CREDITS.md"
+   ],
+   "top": [
+    "hearth/lists/fire-tv-aftshn02.txt",
+    "hearth/lists/fire-tv-aftha004.txt",
+    "hearth/lists/fire-tv-aftdct31.txt",
+    "hearth/lists/fire-tv-afttiff43.txt",
+    "hearth/lists/fire-tv-aftkm.txt",
+    "hearth/lists/fire-tv-aftma2857f.txt",
+    "hearth/install.sh",
+    "hearth/lists/fire-tv-afteu014.txt",
+    "hearth/lists/codenames.txt",
+    "hearth/lists/fire-tv-aftolcbc82.txt"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "hearth:46d53c4d89",
+   "repo": "hearth",
+   "query": "CI: move to the v5 actions; README: the phone page is a companion, not a remote",
+   "gold": [
+    "hearth/.github/workflows/ci.yml",
+    "hearth/.github/workflows/release.yml",
+    "hearth/README.md"
+   ],
+   "top": [
+    "hearth/tools/dev/companion_mock.py",
+    "council-votes/.github/workflows/ci.yml",
+    "Keystone/apps/web/app/signin/page.tsx",
+    "Keystone/apps/web/app/profile/page.tsx",
+    "Silent-RAG-Failures/.github/workflows/pages.yml",
+    "Keystone/apps/web/components/Reader.tsx",
+    "council-votes/tests/fixtures/rollcall-page-0-2026-03-09.html",
+    "fantasy-racer/public/sw.js",
+    "Gitgotchi/.github/workflows/pages.yml",
+    "tool-call-reliability/src/toolrel/prompts.py"
+   ],
+   "recall": 0.0,
+   "hit": 0.0,
+   "mrr": 0.0
+  },
+  {
+   "id": "hearth:5acd07e582",
+   "repo": "hearth",
+   "query": "Chess against Dr. Malvek, and a Wallpapers button",
+   "gold": [
+    "hearth/CREDITS.md",
+    "hearth/README.md",
+    "hearth/tools/wallpapers.sh"
+   ],
+   "top": [
+    "hearth/launcher/app/src/main/res/raw/companion.html",
+    "hearth/README.md",
+    "fantasy-racer/src/game/render.ts",
+    "fantasy-racer/app/layout.tsx",
+    "fantasy-racer/app/components/GameApp.tsx",
+    "fantasy-racer/app/globals.css",
+    "Keystone/apps/web/app/contested/page.tsx",
+    "fantasy-racer/scripts/realms_montage.py",
+    "hearth/tools/wallpapers.sh",
+    "fantasy-racer/src/game3d/props/hogwarts.ts"
+   ],
+   "recall": 0.6666666666666666,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "hearth:ecd2a5e881",
+   "repo": "hearth",
+   "query": "Fireplace: a real wood fire as a tile and the idle screen",
+   "gold": [
+    "hearth/CREDITS.md",
+    "hearth/README.md",
+    "hearth/install.sh",
+    "hearth/themes/ember/config.json"
+   ],
+   "top": [
+    "hearth/README.md",
+    "fantasy-racer/src/game3d/props/castle.ts",
+    "fantasy-racer/src/game3d/props/metro.ts",
+    "fantasy-racer/src/game3d/props/hogwarts.ts",
+    "hearth/CREDITS.md",
+    "hearth/install.sh",
+    "hearth/themes/ember/config.json",
+    "hearth/launcher/app/src/main/res/raw/companion.html",
+    "fantasy-racer/src/game3d/realms.ts",
+    "fantasy-racer/src/game/render.ts"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "whygit:a782e8d6e9",
+   "repo": "whygit",
+   "query": "0.1.2: MCP registry metadata (server.json and the README ownership marker)",
+   "gold": [
+    "whygit/README.md",
+    "whygit/RELEASING.md",
+    "whygit/pyproject.toml",
+    "whygit/server.json",
+    "whygit/src/whygit/__init__.py"
+   ],
+   "top": [
+    "evalpair/.github/workflows/registry.yml",
+    "whygit/server.json",
+    "Keystone/server.json",
+    "bostonmove/.github/workflows/registry.yml",
+    "Keystone/apps/web/app/api/mcp/route.ts",
+    "whygit/README.md",
+    "evalpair/RELEASING.md",
+    "datasniff/README.md",
+    "datasniff/src/datasniff/server.py",
+    "MLOps-Lab3/README.md"
+   ],
+   "recall": 0.4,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "whygit:2304bc430d",
+   "repo": "whygit",
+   "query": "Say how many more repositories there are instead of silently cutting the list at eight (0.1.1)",
+   "gold": [
+    "whygit/pyproject.toml",
+    "whygit/src/whygit/__init__.py",
+    "whygit/src/whygit/rules.py",
+    "whygit/tests/test_rules.py"
+   ],
+   "top": [
+    "whygit/src/whygit/engine.py",
+    "whygit/src/whygit/state.py",
+    "Keystone/apps/web/app/api/mcp/route.ts",
+    "whygit/README.md",
+    "whygit/src/whygit/rules.py",
+    "Keystone/services/core/keystone/cli.py",
+    "whygit/tests/test_redaction.py",
+    "whygit/tests/scenarios.py",
+    "prompt-brittleness/HYPOTHESES.md",
+    "Keystone/CLAUDE.md"
+   ],
+   "recall": 0.25,
+   "hit": 1.0,
+   "mrr": 0.2
+  },
+  {
+   "id": "whygit:8b6dbcc66e",
+   "repo": "whygit",
+   "query": "Read-only test: wait for the sandbox to settle before diagnosing, and turn off background maintenance in test repos",
+   "gold": [
+    "whygit/tests/scenarios.py",
+    "whygit/tests/test_readonly.py"
+   ],
+   "top": [
+    "whygit/tests/test_readonly.py",
+    "whygit/tests/test_server.py",
+    "evalpair/tests/test_server.py",
+    "whygit/tests/test_rules.py",
+    "whygit/README.md",
+    "whygit/src/whygit/gitcmd.py",
+    "whygit/tests/test_errors.py",
+    "evalpair/tests/test_runner.py",
+    "whygit/tests/test_cli.py",
+    "Silent-RAG-Failures/tests/test_audit_fixes.py"
+   ],
+   "recall": 0.5,
+   "hit": 1.0,
+   "mrr": 1.0
+  },
+  {
+   "id": "whygit:cf585c177f",
+   "repo": "whygit",
+   "query": "Fix two tests on Windows: path separators in the snapshot, and CRLF test data",
+   "gold": [
+    "whygit/tests/test_errors.py",
+    "whygit/tests/test_readonly.py"
+   ],
+   "top": [
+    "Silent-RAG-Failures/tests/test_configs.py",
+    "whygit/tests/test_errors.py",
+    "whygit/tests/test_readonly.py",
+    "whygit/tests/test_cli.py",
+    "datasniff/tests/test_web.py",
+    "Silent-RAG-Failures/configs/dev.yaml",
+    "Silent-RAG-Failures/tests/test_seeds_and_chunks.py",
+    "Silent-RAG-Failures/tests/test_pipeline.py",
+    "datasniff/tests/test_sources.py",
+    "Aurora-GP/results/hetero_independent.json"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.5
+  },
+  {
+   "id": "whygit:d6de7e3a0d",
+   "repo": "whygit",
+   "query": "Add CI across Python 3.10-3.14 and macOS/Windows, and tag-based PyPI publishing",
+   "gold": [
+    "whygit/.github/workflows/ci.yml",
+    "whygit/.github/workflows/publish.yml",
+    "whygit/RELEASING.md"
+   ],
+   "top": [
+    "evalpair/RELEASING.md",
+    "whygit/RELEASING.md",
+    "whygit/.github/workflows/ci.yml",
+    "datasniff/RELEASING.md",
+    "datasniff/.github/workflows/ci.yml",
+    "bostonmove/.github/workflows/ci.yml",
+    "evalpair/.github/workflows/ci.yml",
+    "datasniff/.github/workflows/publish.yml",
+    "evalpair/.github/workflows/publish.yml",
+    "whygit/.github/workflows/publish.yml"
+   ],
+   "recall": 1.0,
+   "hit": 1.0,
+   "mrr": 0.5
+  }
+ ]
+}

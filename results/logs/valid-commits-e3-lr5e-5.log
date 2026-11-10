@@ -1,0 +1,6 @@
+W1110 00:01:40.906000 32475 .venv/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11510.89it/s]
+{"retriever": "models/commits-e3-lr5e-5", "split": "valid", "scope": "all", "n": 34, "recall": {"mean": 0.433, "ci": [0.316, 0.55]}, "hit": {"mean": 0.706, "ci": [0.559, 0.853]}, "mrr": {"mean": 0.487, "ci": [0.355, 0.62]}}
+W1110 00:03:07.165000 32729 .venv/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 30815.42it/s]
+{"retriever": "hybrid:models/commits-e3-lr5e-5", "split": "valid", "scope": "all", "n": 34, "recall": {"mean": 0.57, "ci": [0.458, 0.678]}, "hit": {"mean": 0.794, "ci": [0.676, 0.912]}, "mrr": {"mean": 0.485, "ci": [0.356, 0.619]}}

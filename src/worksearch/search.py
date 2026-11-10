@@ -82,6 +82,8 @@ def rank_files(scores: np.ndarray, chunks: list[dict], k: int = 10) -> list[tupl
     """Files by their best chunk: (repo/path, score, index of that chunk)."""
     best: dict[str, tuple[float, int]] = {}
     for i in np.argsort(-scores)[: max(200, 20 * k)]:
+        if not np.isfinite(scores[i]):  # outside the searched repo
+            break
         key = f"{chunks[i]['repo']}/{chunks[i]['path']}"
         if key not in best:
             best[key] = (float(scores[i]), int(i))

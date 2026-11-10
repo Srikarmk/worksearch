@@ -1,7 +1,7 @@
 [project]
 name = "worksearch"
 version = "0.1.0"
-description = "Add your description here"
+description = "Search my public repos by what a change did: BM25 and a fine-tuned bge-small, scored on held-out repos"
 readme = "README.md"
 authors = [
     { name = "Srikarmk", email = "srikarmks@gmail.com" }
@@ -16,6 +16,9 @@ dependencies = [
     "scipy>=1.18.1",
     "sentence-transformers>=6.2.0",
 ]
+
+[project.scripts]
+worksearch = "worksearch.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.13.0,<0.14.0"]
