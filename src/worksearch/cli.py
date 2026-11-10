@@ -12,9 +12,19 @@ bge-small model (results in README.md).
 
 from __future__ import annotations
 
-import argparse
-import json
-import sys
+import logging
+import os
+
+# quiet the libraries before they load: torch's "Redirects are not supported" note, the weights progress bar
+os.environ.setdefault("TORCH_CPP_LOG_LEVEL", "ERROR")
+os.environ.setdefault("TRANSFORMERS_VERBOSITY", "error")
+os.environ.setdefault("HF_HUB_DISABLE_PROGRESS_BARS", "1")
+os.environ.setdefault("TQDM_DISABLE", "1")
+logging.getLogger("torch.distributed.elastic.multiprocessing.redirects").setLevel(logging.ERROR)
+
+import argparse  # noqa: E402
+import json  # noqa: E402
+import sys  # noqa: E402
 from functools import lru_cache
 from pathlib import Path
 
