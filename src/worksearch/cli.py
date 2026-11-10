@@ -62,10 +62,11 @@ def search(query: str, repo: str | None = None, mode: str = "bm25", k: int = 10)
 
 
 def serve():
-    from mcp.server.fastmcp import FastMCP
-    app = FastMCP("worksearch")
+    from mcp.server.mcpserver import MCPServer
+    from mcp.types import ToolAnnotations
+    app = MCPServer("worksearch", instructions="Read-only search over Srikar's public repos.")
 
-    @app.tool()
+    @app.tool(annotations=ToolAnnotations(readOnlyHint=True, openWorldHint=False))
     def search_work(query: str, repo: str | None = None, mode: str = "bm25", k: int = 10) -> str:
         """Find files in Srikar's public repos for a description of code or of a change ("where the pet's share
         card is drawn", "chrf checker"). Returns up to k files, best first, each with the line its best chunk

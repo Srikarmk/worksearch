@@ -15,6 +15,9 @@ worksearch "council vote tally mismatch" --mode hybrid
 worksearch mcp          # MCP server on stdio, one tool: search_work
 ```
 
+`--mode hybrid` needs the fine-tuned model in `models/`, which is not in the repo (130 MB); `train.py` makes
+it in about 25 minutes on an M5 Pro (see Reproduce). BM25 needs nothing but the index.
+
 ## Data
 
 - **Corpus:** every tracked text file in the 24 repos (code, Markdown, configs; no lockfiles, no files over
