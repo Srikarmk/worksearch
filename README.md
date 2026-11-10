@@ -5,8 +5,9 @@ the command line or as an MCP tool. I also fine-tuned the embedding model on my 
 that beats keyword search, and scored it on six repos it never saw.
 
 **Result:** on those repos, fine-tuning bge-small didn't measurably help. Fusing keyword search (BM25)
-with an embedding model did: it put the right file higher (MRR@10 0.67–0.69 against BM25's 0.60), and within one
-repo the gain is clear (+0.10, 95% interval +0.01 to +0.19), whether or not the model was tuned.
+with an embedding model did: it put the right file higher (MRR@10 0.67–0.69 against BM25's 0.60). Within one
+repo the gain is clear for the untuned model (+0.10, 95% interval +0.01 to +0.19); with the tuned one it is
++0.08 (−0.01 to +0.16).
 
 ```bash
 worksearch "where does the pet render its share card"
